@@ -1,6 +1,6 @@
 var actorOne = {
     firstName: "Will",
-    lastName: "Smith"
+    lastName: "Smith",
     age: 51,
     yearlyEarnings: 50000
 
@@ -23,6 +23,8 @@ var actorThree = {
 var actorArray = [actorOne,actorTwo,actorThree]
 
 
-for(let i=0, i < actorArray.length; i++){
-    console.log(actorArray[i]);
+for(let i=0; i < actorArray.length; i++){
+    if(actorArray[i].yearlyEarnings > 30000)
+    console.log(actorArray[i].lastName + " " + actorArray[i].yearlyEarnings);
+
 }
