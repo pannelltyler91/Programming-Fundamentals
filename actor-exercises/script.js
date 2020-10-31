@@ -28,3 +28,5 @@ for(let i=0; i < actorArray.length; i++){
     console.log(actorArray[i].lastName + " " + actorArray[i].yearlyEarnings);
 
 }
+
+
