@@ -29,7 +29,7 @@ printSquare(3);
 for (let x = 0; x <= 20; x ++){
     if (x % 2 === 0)
     console.log(`${x} is an even number`)
-    else if(x % 2 !== 0)
+    else(x % 2 !== 0)
     console.log(`${x} is an odd number`)
 }
 
@@ -43,3 +43,16 @@ while( x > 0) {
     x--
 
 }
+
+let problemArray = [['Lion','Deer','Sheep'],['Cub','Fawn','Lamb']]
+for (let x = 0; x < problemArray.length; x++){
+    console.log(problemArray[x]);
+}
+
+for (let x = 0; x < problemArray.length; x++){
+    for (j = 0; j < problemArray.length; x++) {
+
+    }
+    console.log(problemArray[x]);
+}
+
