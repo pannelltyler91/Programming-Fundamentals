@@ -40,7 +40,7 @@ function printBanner(message){
             if(i === 1 || i === 3 || j ===1 || j === message.length + 2){
                 banner += "*"
             }else{
-                banner += message
+                banner += message 
             }
         }
         banner += "\n"
