@@ -33,3 +33,19 @@ function printBox(x,y){
 
 
 
+function printBanner(message){
+    let banner = ""
+    for( let i = 1; i <= 3; i++){
+        for(let j = 1; j <= message.length; j++){
+            if(i === 1 || i === 3 || j ===1 || j === message.length + 2){
+                banner += "*"
+            }else{
+                banner += message
+            }
+        }
+        banner += "\n"
+    }
+    console.log(banner)
+}
+
+printBanner("Javascript");
