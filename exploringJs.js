@@ -13,16 +13,17 @@ while(number <= 10) {
 }
 
 //Print a Square
- let symbol = ("*")
-function printSquare(size){
-    for(let x=0; x <= size; x++)
-    for(let y=0; y <= size; y++)
-    
-    console.log(symbol);
-}
-    
+function printSquare(number){
+    let star = ""
+     for( let i = 0; i < number; i++){
+         for ( let j = 0; j < number; j++){
+             star+="*"
+         }
+         star+="\n"
+     } console.log(star)
+ }
 
-printSquare(3);
+ printSquare(5);
 
 
 // in class exercise 2 for 10/31/2020
